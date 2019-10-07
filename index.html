@@ -9,7 +9,7 @@
     main {
       margin: 0 auto;
       max-width: 600px;
-      width: 60%;
+      width: 70%;
     }
     ul, li {
       list-style: none;
@@ -22,6 +22,11 @@
     img {
       margin-bottom: 1em;
       max-width: 100%;
+    }
+    .contact {
+      border: 2px double #999;
+      margin-bottom: 3em;
+      padding: 1em;
     }
     .image-container {
       align-items: center;
@@ -42,12 +47,16 @@
       a:last-child {
         margin-right: 0;
       }
+      main {
+        width: 60%;
+      }
     }
   </style>
 </head>
 <body>
   <main>
     <h1>random stuff for sale</h1>
+    <p class="contact">email Lydia at <a href="mailto:llkats+forsale@gmail.com">llkats+forsale@gmail.com</a> for more information or to make an offer.</p>
     <ul>
       <li>
         <h2>Withings Scale - $40</h2>
@@ -60,6 +69,16 @@
             </picture>
           </a>
         </div>
+      </li>
+      <li>
+        <h2>BB-8 Robot Toy by Sphero - $20</h2>
+        <p>A BB-8 rolling robot toy. Controlled with a free app. Charges with a micro-USB cord, not included.</p>
+        <a href="./img/bb-8.jpg" target="_blank">
+          <picture>
+            <source srcset="./img/bb-8-sm.png" media="(max-width: 768px)">
+            <img class="" src="./img/bb-8.jpg" alt="bb-8 robot toy">
+          </picture>
+        </a>
       </li>
       <li>
         <h2>Curtain Rods - $10</h2>
